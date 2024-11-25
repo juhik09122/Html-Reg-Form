@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    background-image: url("registration.png");
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background: #fff;
+    background-image: url("from_image.png");
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px hwb(256 4% 39% / 0.102);
+    width: 300px;
+}
+.form-container:hover{
+    background-color: #7c6161;
+}
+h1 {
+    text-align: center;
+    color: #333;9
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: rgb(40, 155, 136);
+}
+
+
+
+input, select, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #993a3a;
+}
+
+    
